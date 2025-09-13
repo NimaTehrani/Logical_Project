@@ -1,5 +1,8 @@
+streamlit==1.49.1  # Your current version
 sympy==1.14.0
-
+z3-solver==4.15.3.0
 kanren==0.2.3
-
-z3-solver
+unification==0.2.2
+toolz==1.0.0  # Dependency of kanren/unification
+multipledispatch==1.0.0  # Another dep
+rich==14.1.0  # For better error logging, as seen in logs
