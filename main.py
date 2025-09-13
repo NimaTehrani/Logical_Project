@@ -6,7 +6,6 @@ from z3 import (
     Bool, Implies as Z3Implies, And, Or, Not, Solver, sat, unsat,
     ForAll, Exists, Int, Function, DeclareSort, Const, BoolSort
 )
-import kanren
 
 # Page config
 st.set_page_config(
