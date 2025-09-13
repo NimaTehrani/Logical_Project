@@ -213,7 +213,8 @@ elif logic_type == "حل مسئله با kanren":
 
     st.markdown("کد پایتون خود را وارد کنید (کتابخانه kanren را وارد کنید و پرس‌وجوهای خود را بنویسید):")
 
-    default_code = '''from kanren import run, var, fact, Relation, conde
+    default_code = '''from collections.abc import Iterator  # Use the correct import
+from kanren import run, var, fact, Relation, conde
 
 # تعریف متغیرها و رابطه
 parent = Relation()
