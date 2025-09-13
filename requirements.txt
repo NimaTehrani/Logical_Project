@@ -1,0 +1,3 @@
+sympy
+kanren
+solver-z3
