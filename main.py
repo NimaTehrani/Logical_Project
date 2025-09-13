@@ -6,7 +6,6 @@ from z3 import (
     Bool, Implies as Z3Implies, And, Or, Not, Solver, sat, unsat,
     ForAll, Exists, Int, Function, DeclareSort, Const, BoolSort
 )
-from collections.abc import Iterator  # Use the correct import
 
 # Page config
 st.set_page_config(
@@ -213,7 +212,7 @@ elif logic_type == "حل مسئله با kanren":
 
     st.markdown("کد پایتون خود را وارد کنید (کتابخانه kanren را وارد کنید و پرس‌وجوهای خود را بنویسید):")
 
-    default_code = '''from collections.abc import Iterator  # Use the correct import
+    default_code = '''
 from kanren import run, var, fact, Relation, conde
 
 # تعریف متغیرها و رابطه
